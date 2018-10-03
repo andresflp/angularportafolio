@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/info-pagina.service';
+import { ProductosService } from '../../services/productos.service';
 
 @Component({
   selector: 'app-about',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  //inyectamos el servicio
+  
+
+  constructor(public _infoService: InfoPaginaService,
+              public _infoProductos: ProductosService ) { 
+
+  }
 
   ngOnInit() {
   }

@@ -11,3 +11,4 @@
   tumblr?: string;
   equipo_trabajo?: any[];
 }
+
