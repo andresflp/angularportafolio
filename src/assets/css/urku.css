@@ -1288,10 +1288,13 @@ body {
 
 .rk-portfolio-title {
   letter-spacing: .0359em;
+  padding: 0 10px;
+
 }
 
 .rk-portfolio-category {
   letter-spacing: .021em;
+  padding: 0;
 }
 
 .rk-portfolio-inner-client span {
@@ -1320,6 +1323,9 @@ body {
 
 .item-inside__meta {
   text-align: center;
+ 
+  background-color:rgba(255, 255, 255, 0.62);
+  width: 100%;
 }
 .item-inside__meta--contrast:before {
   background-color: rgba(255, 255, 255, .3);
@@ -1350,14 +1356,12 @@ body {
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
+
   background-position: 50% 100%;
   background-size: 350%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  .item-inside-1 {
-    background-image: url("../img/project-1h.jpg");
-  }
+
 }
 @media (min-width: 40em) {
   .item-inside-1 {
