@@ -22,7 +22,45 @@
         </svg>
     </div>
   </div>
-  
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active mycarousel " >
+        <img class="d-block w-100" src="assets/img/car-1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>El Colibri</h5>
+          <p>Mirador de Otavalo</p>
+        </div>
+      </div>
+      <div class="carousel-item mycarousel">
+        <img class="d-block w-100" src="assets/img/car-2.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ruta del Yamor</h5>
+          <p>Comparzas, música y más</p>
+        </div>
+      </div>
+      <div class="carousel-item mycarousel" >
+        <img class="d-block w-100" src="assets/img/car-3.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ruta del Mindalae</h5>
+          <p>Gastronomia andina, senderos y emprendimietos</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
   
   <div  *ngIf="!productosService.cargando" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
     <a *ngFor="let producto of productosService.productos" 

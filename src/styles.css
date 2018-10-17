@@ -45,3 +45,15 @@ svg path,
 svg rect{
   fill: black;
 }
+
+.mycarousel{
+  max-height: 400px;
+}
+.carousel-inner{
+  margin-bottom: 20px;
+}
+.carousel-caption{
+  background-color:rgba(0, 0, 0, 0.73);
+
+
+}
